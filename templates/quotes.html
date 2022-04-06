@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+  {% block title %}
+    <title>Quotes</title>
+  {% endblock %}
+  {% block content %}
+    <div class="quotes">
+      <h2>Quotes</h2>
+      <p id="copy-text" >{{ response.text }}</p>
+      <button>
+        <p><a href="{% url 'quotes' %}">New</a></p>
+      </button>
+      <button onclick="copy()">Copy</button>
+    </div>
+
+  {% endblock content%}
+

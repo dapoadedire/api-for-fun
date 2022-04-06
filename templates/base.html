@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block title %}
+        
+        {% endblock title %}
+        <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+        <script src="{% static 'js/app.js' %}" type="text/javascript"></script>   
+    </head>
+
+    <body>
+        <header class="header">
+            <nav>
+                <ul>
+                    <li><a href="{% url 'quotes' %}">Quotes</a></li>
+                    <li><a href="{% url 'jokes' %}">Jokes</a></li>
+                    <li><a href="{% url 'advices' %}">Advices</a></li>
+                    <li><a href="{% url 'facts' %}">Facts</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        <section>
+            <div class="content">
+                {% block content %}{% endblock %}
+            </div>
+        </section>
+           
+    </body>
+</html>
+

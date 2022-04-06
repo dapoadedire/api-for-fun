@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+  {% block title %}
+    <title>Jokes</title>
+  {% endblock %}
+  {% block content %}
+    <div class="jokes">
+      <h2>Jokes</h2>
+      <p id="copy-text" >{{ response }}</p>
+      <button >
+        <p><a href="{% url 'jokes' %}">New</a></p>
+      </button>
+      <button onclick="copy()">Copy</button>
+    </div>
+  {% endblock content%}
