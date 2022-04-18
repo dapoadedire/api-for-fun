@@ -7,6 +7,10 @@ name = "pypi"
 django = "*"
 whitenoise = "*"
 requests = "*"
+python-decouple = "*"
+dj-database-url = "*"
+pillow = "*"
+gunicorn = "*"
 
 [dev-packages]
 
