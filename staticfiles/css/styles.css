@@ -1,0 +1,101 @@
+body{
+    color: whitesmoke;
+    background-color: #342056;
+    /* background: rgb(2,0,36); */
+    /* background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(52,32,86,1) 35%, rgba(41,71,122,1) 67%, rgba(0,212,255,1) 100%); */
+    font-family: 'Akshar', sans-serif;
+}
+.content{
+    width: 70%;
+    background-color: hsl(0, 0%, 11%, 0.4);
+    padding: 1.875rem;
+    margin: auto;
+    border-radius: 0.625rem;
+    height: auto;
+}
+
+.content h2{
+    text-align: center;
+    padding-top: 0px;
+}
+
+.btn{
+    background-color: #342056;
+    width: 7rem;
+    color: white;
+    padding: 0.75rem 0.6rem;
+    cursor: pointer;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.4rem;
+    font-family:  'Akshar', sans-serif;
+}
+.btn:first-child{
+    margin-right: 1rem;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #1c1c1c;
+    font-weight: 1000;
+}
+
+.button{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+
+p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.4em;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 3rem;
+    font-size: 1.5rem;
+    font-weight: 1000;
+}
+
+nav{
+    text-align: center;
+}
+
+header{
+    margin-bottom: 4rem;
+    padding: 1rem;
+}
+
+header a, footer a{
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover{
+    font-weight: 30;
+}
+
+
+
+footer{
+    text-align: center;
+    color: white;
+    margin-top: 3rem;
+    transition: background-color 0.5s;
+}
+
+
+
+
+footer ul li{
+    display: inline;
+    margin-right: 1rem;
+    font-size: 2rem;
+  }
+
+
+
+
