@@ -5,11 +5,11 @@
   {% endblock %}
   {% block content %}
     <div class="facts">
-      <h2>Facts</h2>
+      <h2>COOL FACTS</h2>
       <p id="copy-text" >{{ response }}</p>
-      <button>
-        <p><a href="{% url 'facts' %}">New</a></p>
-      </button>
-      <button onclick="copy()">Copy</button>
+      <div class="button">
+        <a href="{% url 'facts' %}"><button class="btn"><i class="fa fa-refresh" aria-hidden="true"> New</i></button></a>
+        <button class="btn" onclick="copy()"><i class="fa fa-clone" aria-hidden="true"></i>  Copy</button>
+      </div>
     </div>
   {% endblock content%}

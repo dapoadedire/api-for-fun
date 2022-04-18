@@ -5,13 +5,12 @@
   {% endblock %}
   {% block content %}
     <div class="quotes">
-      <h2>Quotes</h2>
+      <h2>QUOTES</h2>
       <p id="copy-text" >{{ response.text }}</p>
-      <button>
-        <p><a href="{% url 'quotes' %}">New</a></p>
-      </button>
-      <button onclick="copy()">Copy</button>
-    </div>
+      <div class="button">
+        <a href="{% url 'quotes' %}"><button class="btn"><i class="fa fa-refresh" aria-hidden="true"> New</i></button></a>
+        <button class="btn" onclick="copy()"><i class="fa fa-clone" aria-hidden="true"></i>  Copy</button>
+      </div>
 
   {% endblock content%}
 
